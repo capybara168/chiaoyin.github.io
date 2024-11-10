@@ -1,0 +1,123 @@
+body{
+  background-color: #ffe9f4;
+}
+h1{
+  text-align:left;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-color: #fdf5e6;
+}
+.Email{
+  position: absolute;
+  top: 25px;      
+  right: 20px;
+  font-family:Verdana, Arial, Helvetica, sans-serif ;
+  color: black;
+  font-size: 20px;
+}
+.profile-card h2{
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.mypic{
+  width: 250px;
+	border-radius: 50%;
+	overflow: hidden;
+  > img{
+	display: block;
+	width: 100px;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+}
+}
+.social-icons img{
+  width: 28px;
+  margin:20px;
+}
+.social-icons{
+  text-align: center;
+}
+
+.about-me{
+  max-width: 400px;
+  font-family:Verdana, Arial, Helvetica, sans-serif ;
+  text-align: left;
+  right:100px;
+  top: 100px;
+}
+.about-me h2 {
+  font-size: 36px;
+  color: black;
+}
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 30vw;
+  margin: 0;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  background-color: #fdf5e6;
+}
+.skills, .experience, .goals {
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height:350px;
+  float:left;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 0;
+  font-size: 15px;
+}
+.skills {
+  background-color: #E6CAFF;
+  margin-right: 20px;
+}
+.experience {
+  background-color: #FFFFDF;
+}
+.goals{
+  background-color: #D2E9FF;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.picture1{
+  width: 400px;
+  height: auto;
+}
+.picture2{
+  width: 400px;
+  height: auto;
+}
+.picture3{
+  width: 500px;
+  height: auto;
+}
+.picture4{
+  width: 500px;
+  height: auto;
+}
+.story1,.story2,.story3,.story4{
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.pic1,.pic2,.pic3,.pic4{
+  width: 500px;
+  height: auto;
+}
+.university h2,.highschool h2{
+  text-align: center;
+}
+.chiaoyin{
+  text-align: center; 
+}
